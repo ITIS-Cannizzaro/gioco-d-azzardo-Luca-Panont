@@ -374,6 +374,7 @@ public class ColourPick extends JFrame implements ActionListener{
 				text.setText("");
 				puntata=Integer.parseInt(bet.getText());
 				S-= Integer.parseInt(bet.getText());
+				S=Math.round(S*100.0)/100.0;
 				saldo.setText(""+S);
 				vincita.setVisible(false);
 				risc.setVisible(true);
